@@ -33,7 +33,7 @@
 
 ## About The Project
 
-Some of cBioPortal datasets are not provided their direct download link. For example, [China Pan-cancer (OrigiMed2020)](https://www.cbioportal.org/study?id=pan_origimed_2020) can not be downloaded by clicking the download button. So we wrote some Python scripts to download these datasets which are based on [cBioPortal Web API](https://www.cbioportal.org/webAPI) and [braovo](https://github.com/Yelp/bravado). 
+Some of cBioPortal datasets have no direct download link provided. For example, [China Pan-cancer (OrigiMed2020)](https://www.cbioportal.org/study?id=pan_origimed_2020) can not be downloaded by clicking the download button. So we wrote some Python scripts to download these datasets which are based on [cBioPortal Web API](https://www.cbioportal.org/webAPI) and [braovo](https://github.com/Yelp/bravado). 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -63,7 +63,7 @@ You should install Python 3 and bravado 11.0.3 before using these scripts.
 
 ## Usage
 
-For example, to download the China Pan-cancer (OrigiMed2020) dataset, you can run the following command:
+To download, for example, the China Pan-cancer (OrigiMed2020) dataset, you can run the following command:
 
 ```sh
 python3 chinapancancerdataclawler.py
@@ -79,7 +79,7 @@ It will download the data and generate three csv files "cna.csv", "mutations.csv
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
