@@ -69,7 +69,7 @@ For example, to download the China Pan-cancer (OrigiMed2020) dataset, you can ru
 python3 chinapancancerdataclawler.py
 ```
 
-It will download three csv files "cna.csv", "mutations.csv" and "structual_variants.csv" under the same folder with ``` chinapancancerdataclawler.py ```.
+It will download the data and generate three csv files "cna.csv", "mutations.csv" and "structual_variants.csv" under the same folder with ``` chinapancancerdataclawler.py ```.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
